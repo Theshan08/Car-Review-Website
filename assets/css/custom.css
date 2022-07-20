@@ -1,0 +1,122 @@
+body{
+    background-color: #e5e5e5;
+}
+.navbar{
+    padding: 0px;
+}
+.nav-link{
+    border-right: 1px solid #fff;
+    padding: 8px 20px !important;
+}
+
+.underline{
+    height: 4px;
+    width: 50px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.custom-sticky-top{
+    position: sticky !important;
+    top: 60px;
+}
+.post-body{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.sub-navbar-bg{
+    background-color: #0d6efd;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .sub-navbar-bg {
+        background-color: #fff !important;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        border-top: 1px solid #ddd;
+    }
+    .sub-navbar-bg .nav-item .nav-link {
+        font-weight: 400;
+        color: #000 !important;
+        padding: 6px 8px !important;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+    }
+    .navbar-toggler{
+        background-color: #000 !important;
+    }
+    .navbar-brand img{
+        width: 130px;
+    }
+
+}
+
+/*---Car Loan Calcuator---*/
+
+#loanCalc input{
+    padding:10px;
+    display:block;
+  }
+  
+  
+  .clearfix{
+    clear:both!important;
+  }
+  
+  .paymentCalc{
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    padding: 35px 35px;
+    overflow: auto;
+  }
+  
+  .calcBtn{
+    display:inline-block;
+    background:#c62233;
+    color:#fff;
+    text-align:center;
+    padding:10px 20px;
+    border-radius: 3px;
+  }
+  
+  #paymentResults{
+    display: none;
+    background:#fff;
+    padding: 30px 60px 36px 60px;
+    border:1px solid lightgrey;
+    margin-top:88px;
+    flex: 0 0 auto;
+     width: auto;
+  
+  }
+  
+  .button{
+        color:#fff;
+  
+  }
+  
+  .footerColorLoan { 
+  
+   color: #333;
+   border: 1px solid #ccc;
+   background-color:#F3F2ED;
+   margin: auto;
+   padding: auto;
+  }
+  
+  /*Test*/
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .r1_body {
+    background-color: #41464b;
+  }
+  
+  .quoteWidth{
+    width: 100%
+  }
+  
