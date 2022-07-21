@@ -131,12 +131,10 @@ if(isset($_POST['category_update']))
     $meta_description = $_POST['meta_description'];
     $meta_keyword = $_POST['meta_keyword'];
 
-    $navbar_status = $_POST['navbar_status'] == true ? '1':'0';
-    $status = $_POST['status'] == true ? '1':'0';
+   
 
     $query = "UPDATE categories SET name='$name', slug='$slug', description='$description', meta_title='$meta_title', 
-                meta_description='$meta_description', meta_keyword='$meta_keyword', navbar_status='$navbar_status', 
-                status='$status' WHERE id='$category_id' ";
+                meta_description='$meta_description', meta_keyword='$meta_keyword' WHERE id='$category_id' ";
     $query_run = mysqli_query($con, $query);
 
     if($query_run)
